@@ -1,0 +1,144 @@
+<html>
+
+<head>
+    
+    <meta charset="utf-8"> <!--para poder usar sin problemas las tildes-->
+    <title>CINERTEC-SOCIOS</title> 
+    <link type="text/css" rel="stylesheet" href="css/Socios.css"/> <!--Enlazar el html con la hoja de css respectiva-->
+    <script src="js/Socios.js"></script> <!--Enlazar archivo js con html-->
+    <link rel="shortcut icon" href="img/iconoWeb.ico" type="image/x-icon"> <!--para mostrar el icono de la tienda en la pestaña de la pagina-->
+    
+    
+</head>
+
+<body onload="titulos()">
+    
+    <header>
+       
+        <div class="header-superior">
+            <div class="botones">
+                <button class="Login">Login</button>
+                <a href="registro.html"><button class="Registrarse">Registrarse</button></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#">Conocenos</a></li>
+                    <li><a href="otros-servicios.html">otros servicios</a></li>
+                </ul>
+            </div>
+            <div class="Redes">
+
+                <div> <a href="https://www.facebook.com"><img src="img/facebook.png"></a></div> 
+                <div> <a href="https://www.instagram.com"><img src="img/instagram.png"></a></div> 
+                <div> <a href="https://www.twitter.com"><img  src="img/twitter.png"></a></div> 
+
+            </div>
+
+    </div>
+             
+        <div class="header-inferior">
+        
+            <div id="logo">
+                <a href="Inicio-Cinertec.html"><img src="img/Titulo.png"></a>
+            </div>
+            <div id="sub-menu">
+                <ul>
+                    <li><a href="Peliculas.html">Peliculas</a></li>
+                    <li><a href="Promociones.html">Promociones</a> </li>
+                    <li><a href="Productos.html">Locales</a></li>
+                    <li><a href="Confiteria.html">Confiteria</a></li>
+                </ul>
+            </div>
+            <div id="desplegable">
+
+                <ul onmouseover="desplegableon(this)" onmouseout="desplegableoff(this)">
+                    <li><a href=""><strong> CINERTEC MALL PLAZA BELLAVISTA</strong></a> 
+                        <ul id="ul">
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC MEGA PLAZA COMAS</a > </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC MALL PLAZA BELLAVISTA</a> </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC REAL PLAZA PRO</a> </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC PLAZA VEA VENTANILLA</a> </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC LA RAMBLA JAVIER PRADO</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+                        
+            </div>
+
+        </div> 
+    
+    </header><br>
+    <main><!--bloque principal donde agregaran el contenido de todas las paginas-->
+        <article>
+            <div class="articulos"><p id="titulo">¿Ya eres Socio?</p>Servicio exclusivo para socios Elite Gold con 
+                                    tarjetas de crédito aceptadas en los teatros de convenios vigentes 
+                                    (aplica costo por boleta comprada).
+                                    <a href="Inicio-Cinertec.html#acolor"><img id="socio" src="img/socio.jpg" alt=""></a>
+                                    <a href="registro.html"><button class="unete">UNETE YA!!!  </button></div></a>
+
+            <div class="articulos"><p id="titulo1">Beneficios Socios</p>La obtención de PUNTOS se da a partir de las 
+                                    compras que se realice en el área de boletería o chocolatería, esto 
+                                    es personal e intransferible por parte del socio. La acumulación de 
+                                    estos PUNTOS se da la siguiente forma: Por compras de S/ 10.00 (Diez 
+                                    con 00/100 soles) obtienes _1punto Por compras de S/ 15.00 (Quince con 
+                                    00/100 Soles) obtienes 1 punto Por compras de S/ 20.00 (Veinte con 00/
+                                    100 Soles) obtienes 2 punto</div>
+
+            <div class="articulos"><p id="titulo2">Comunicado</p>Les informamos que la atención en Cinertec Open Plaza 
+                                    Angamos de Surquillo ya se ha reestablecido y las funciones se están 
+                                    llevando a cabo con normalidad, según la programación del día.
+                                    A todas las personas cuyas funciones se vieron afectadas por el incidente
+                                     del día de hoy:
+                                    Si compraron sus entradas online a través de Cinepapaya, pueden gestionar 
+                                    la devolución de su dinero, escribiendo al correo: servicios@cinepapaya.com 
+                                    o llamando al 0800-7-1919 (llamada gratuita) o al 729-7205.</div>
+        </article>
+        <section>
+            <video  autoplay muted loop src="video/video.mp4"></video>
+            <div class="capa">
+                    <img id="promo" src="img/promo1f.jpg" alt="" onmouseover="mostrarPromo1(this), agrandarimagen1(this)" onmouseout="ocultarPromo1(this), ocultarimagen1(this)">
+                    <img id="promo" src="img/promo2f.jpg" alt="" onmouseover="mostrarPromo(this), agrandarimagen(this)" onmouseout="ocultarPromo(this), ocultarimagen(this)">
+            </div>
+            <img id="promog"  src="video/promo3.png" alt="UNETE"> 
+        </section>
+    
+    </main><!--de aqui para abajo no tocar, puesto que es el footer a menos que quieran modificar algo-->
+    <footer>
+        <div id="logo-footer"><a  href="Inicio-Cinertec.html"><img src="img/Titulo1.png"> </a> </div>
+        <div id="contenido"><strong>PROGRAMACION</strong>
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;" ><a href="">Cartelera</a></li>
+                <li><a href="">Proximamente</a></li>
+                <li><a href="">Preventa</a></li>
+            </ul>
+        </div>
+        <div id="contenido"><strong>SOBRE CINERTEC</strong>
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;"><a href="">Nosotros</a></li>
+                <li><a href="Sala_formatos.html">Formato de salas</a></li>
+                <li><a href="TerminosyConficiones.html">Terrminos y condiciones</a></li>
+                <li><a href="">Politica de Proteccion de Datos Personales</a></li>
+            </ul>
+        </div>
+        <div id="contenido"><strong>OTROS SERVICIOS</strong>
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;"><a href="">Salas privadas</a></li>
+                <li><a href="">Publicidad</a></li>
+            </ul>
+        </div>
+        <div id="contenido"><strong>CONTACTO</strong> 
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;"><a href="">Escribenos</a></li>
+                <li><a href="">Trabaja con nosotros</a></li>
+                <li ><a href="">Libro de reclamaciones
+                    <img src="img/libro.png">
+                </a></li>
+            </ul>
+        </div>
+    </footer>
+    
+
+
+</body>
+</html>

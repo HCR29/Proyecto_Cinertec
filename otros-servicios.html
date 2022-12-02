@@ -1,0 +1,216 @@
+<html>
+
+<head>
+    
+    <meta charset="utf-8"> <!--para poder usar sin problemas las tildes-->
+    <title>CINERTEC</title> 
+    <link type="text/css" rel="stylesheet" href="css/otros-servicios.css"/> <!--Enlazar el html con la hoja de css respectiva-->
+    <script src="js/otros-servicio.js"></script> <!--Enlazar archivo js con html-->
+   
+    
+    
+</head>
+
+<body >
+    
+    <header>
+       
+        <div class="header-superior">
+            <div class="botones">
+                <button class="Login">Login</button>
+                <a href="registro.html"><button class="Registrarse">Registrarse</button></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="#">Conocenos</a></li>
+                    <li><a href="./otros-servicios.html">otros servicios</a></li>
+                </ul>
+            </div>
+            <div class="Redes">
+
+                <div> <a href="https://www.facebook.com"><img src="img/facebook.png"></a></div> 
+                <div> <a href="https://www.instagram.com"><img src="img/instagram.png"></a></div> 
+                <div> <a href="https://www.twitter.com"><img  src="img/twitter.png"></a></div> 
+
+            </div>
+
+    </div>
+             
+        <div class="header-inferior">
+        
+            <div id="logo">
+                <a href="Inicio-Cinertec.html"><img src="img/Titulo.png"></a>
+            </div>
+            <div id="sub-menu">
+                <ul>
+                    <li><a href="Peliculas.html">Peliculas</a></li>
+                    <li><a href="Promociones.html">Promociones</a> </li>
+                    <li><a href="Productos.html">Locales</a></li>
+                    <li><a href="Confiteria.html">Confiteria</a></li>
+                </ul>
+            </div>
+            <div id="desplegable">
+
+                <ul onmouseover="desplegableon(this)" onmouseout="desplegableoff(this)">
+                    <li><a href=""><strong> CINERTEC MALL PLAZA BELLAVISTA</strong></a> 
+                        <ul id="ul">
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC MEGA PLAZA COMAS</a > </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC MALL PLAZA BELLAVISTA</a> </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC REAL PLAZA PRO</a> </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC PLAZA VEA VENTANILLA</a> </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC LA RAMBLA JAVIER PRADO</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+                        
+            </div>
+
+        </div> 
+    
+    </header>
+    <main><!--bloque principal donde agregaran el contenido de todas las paginas-->
+        <section>
+
+            <div class="contenedor-servicios">
+
+                <div class="portada">
+                    <img src="./img/portada-servicios.jpg" style="width:100%; height:100%">
+                </div>
+
+                <div class="servicios">
+                    <ul>
+                        <li><a href="#eventos" id="ser" onmouseover="seron(this)" onmouseout="seroff(this)">EVENTOS ESPECIALES</a></li>
+                        <li><a href="#corporativo" id="ser1" onmouseover="ser1on(this)" onmouseout="ser1off(this)">CORPORATIVO</a></li>
+                        <li><a href="#publicidad" id="ser2" onmouseover="ser2on(this)" onmouseout="ser2off(this)">PUBLICIDAD</a></li>
+                    </ul>
+                </div>
+                <div class="cartas">
+
+                    <div class="cartas-sub" id="eventos">
+
+                        <article class="artproducto" onmouseover="oculta(this)" onmouseout="mostrar(this)">
+                            <img class="imgproducto" src="img/cumple.jpg" />
+                            <h1>CUMPLEAÑOS</h1>
+                            <p>Pasa un cumpleaños de película en nuestras salas de cine para ti y tus amigos con la película de cartelera que tú elijas.
+                                 Para mayor información escríbenos a cuentascorporativas@cinertec-peru.com</p>
+                            
+                    
+                        </article>
+                        <article class="artproducto" onmouseover="oculta(this)" onmouseout="mostrar(this)">
+                            <img class="imgproducto" src="img/alquiler.jpg" />
+                            <h1>ALQUILER DE SALA</h1>
+                            <p>Ofrecemos instalaciones de primer nivel para aquellas empresas que deseen realizar diversos tipos de eventos, 
+                                tales como: conferencias, seminarios, lanzamientos de productos y más.
+                                Para mayor información escríbenos a cuentascorporativas@cinertec-peru.com</p>
+                            
+                        
+                        </article>
+                        <article class="artproducto" onmouseover="oculta(this)" onmouseout="mostrar(this)">
+                            <img class="imgproducto" src="img/funcion.jpg" />
+                            <h1>FUNCION ESPECIAL</h1>
+                            <p>Invita a tus clientes o colaboradores a disfrutar de una Función Exclusiva con una película en cartelera,
+                                diseñado para grupos de 50 personas a más.
+                                Para mayor información escríbenos a cuentascorporativas@cinertec-peru.com</p>
+
+                    </div>       
+
+                    <div class="cartas-sub" id="corporativo">
+
+                        <article class="artproducto" onmouseover="oculta(this)" onmouseout="mostrar(this)">
+                            <img class="imgproducto" src="img/entradas.jpg" />
+                            <h1>ENTRADAS CORPORATIVAS</h1>
+                            <p>El Supersaver Corporativo es una entrada al cine previamente adquirida a precio especial, diseñado para
+                                que los colaboradores de las empresas canjeen sus entradas en la boletería para la 
+                                película de su elección. Para mayor información escríbenos a cuentascorporativas@cinertec-peru.com</p>
+                    
+                        </article>
+                        <article class="artproducto" onmouseover="oculta(this)" onmouseout="mostrar(this)">
+                            <img class="imgproducto" src="img/combos.jpg" />
+                            <h1>COMBOS CORPORATIVOS</h1>
+                            <p>Porque sin canchita no hay cine, contamos también con vales corporativos de combos a precios inigualables 
+                                y así ¡regalar una experiencia completa! Los combos corporativos incluyen pop corn, 
+                                gaseosa y otros producto de nuestras confiterías a un precio corporativo. Para mayor
+                                información escríbenos a cuentascorporativas@cinertec-peru.com</p>
+                        
+                        </article>
+                        <article class="artproducto" onmouseover="oculta(this)" onmouseout="mostrar(this)">
+                            <img class="imgproducto" src="img/gifcard.jpg" />
+                            <h1>GIFTCARD</h1>
+                            <p>Regala un momento de película con nuestras opciones de Gift Card Cinertec, un regalo perfecto de diversión.
+                                 Ármalos como mejor desees en entradas y combos. Para mayor información escríbenos a 
+                                 cuentascorporativas@cinertec-peru.com</p>
+
+                    </div> 
+
+                    <div class="cartas-sub" id="publicidad">
+
+                        <article class="artproducto" onmouseover="oculta(this)" onmouseout="mostrar(this)">
+                            <img class="imgproducto" src="img/publi.jpg" />
+                            <h1>PUBLICIDAD EN PANTALLA</h1>
+                            <p>Impacta de forma inmersiva a tus clientes con nuestra publicidad en pantallas. 
+                                Con sonido de hasta 5.1 y cero zapping, las pantallas de Cinertec son el
+                                 perfecto aliado para una campaña de Branding o Promociones.</p>
+                    
+                        </article>
+                        <article class="artproducto" onmouseover="oculta(this)" onmouseout="mostrar(this)">
+                            <img class="imgproducto" src="img/activaciones.jpg" />
+                            <h1>ACTIVACIONES DE MARCA 360º</h1>
+                            <p>Sé disruptivo y utiliza cada contacto con el consumidor en nuestro lobby, 
+                                pasillos e ingresos de salas para sorprenderlos y posicionar tu marca generando
+                                grandes experiencias en un ambiente de entretenimiento cinéfilo.</p>
+                        
+                        </article>
+                        <article class="artproducto" onmouseover="oculta(this)" onmouseout="mostrar(this)">
+                            <img class="imgproducto" src="img/canvas.jpg" />
+                            <h1>CANVAS</h1>
+                            <p>Ubicado en el frontis de uno de los centros comerciales del país, el Canvas de Cinertec brinda
+                                 publicidad 100% digital diferente a un video wall tradicional generando gran
+                                  impacto en el consumidor.</p>
+
+                    </div> 
+
+                </div>    
+            </div>    
+
+
+        </section>
+    </main><!--de aqui para abajo no tocar, puesto que es el footer a menos que quieran modificar algo-->
+    <footer>
+        <div id="logo-footer"><a  href="Inicio-Cinertec.html"><img src="img/Titulo1.png"> </a> </div>
+        <div id="contenido"><strong>PROGRAMACION</strong>
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;" ><a href="">Cartelera</a></li>
+                <li><a href="">Proximamente</a></li>
+                <li><a href="">Preventa</a></li>
+            </ul>
+        </div>
+        <div id="contenido"><strong>SOBRE CINERTEC</strong>
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;"><a href="">Nosotros</a></li>
+                <li><a href="Sala_formatos.html">Formato de salas</a></li>
+                <li><a href="TerminosyConficiones.html">Terrminos y condiciones</a></li>
+                <li><a href="">Politica de Proteccion de Datos Personales</a></li>
+            </ul>
+        </div>
+        <div id="contenido"><strong>OTROS SERVICIOS</strong>
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;"><a href="">Salas privadas</a></li>
+                <li><a href="otros-servicios.html">Publicidad</a></li>
+            </ul>
+        </div>
+        <div id="contenido"><strong>CONTACTO</strong> 
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;"><a href="./blog.html#nosotros-contenido">Escribenos</a></li>
+                <li><a href="./blog.html#nosotros-contenido">Trabaja con nosotros</a></li>
+                <li ><a href="./blog.html#contacto-contenido">Libro de reclamaciones
+                    <img src="img/libro.png">
+                </a></li>
+            </ul>
+        </div>
+    </footer>
+    
+
+
+</body>
+</html>

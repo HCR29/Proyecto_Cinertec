@@ -1,0 +1,322 @@
+<html>
+
+<head>
+    
+    <meta charset="utf-8"> <!--para poder usar sin problemas las tildes-->
+    <title>CINERTEC-PELICULAS</title> 
+    <link type="text/css" rel="stylesheet" href="css/Peliculas.css"/> <!--Enlazar el html con la hoja de css respectiva-->
+    <script src="js/Peliculas.js"></script> <!--Enlazar archivo js con html-->
+    <link rel="shortcut icon" href="img/iconoWeb.ico" type="image/x-icon"> <!--para mostrar el icono de la tienda en la pestaña de la pagina-->
+    <!--CDJN CARRUSEL-->
+    <link rel="stylesheet" href="carousel.css" />
+    <script src="carousel.js"></script> 
+    
+</head>
+
+<body onload="carrusel()">
+
+    
+    <header>
+       
+        <div class="header-superior">
+            <div class="botones">
+                <button class="Login">Login</button>
+                <a href="registro.html"><button class="Registrarse">Registrarse</button></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#">Conocenos</a></li>
+                    <li><a href="otros-servicios.html">otros servicios</a></li>
+                </ul>
+            </div>
+            <div class="Redes">
+
+                <div> <a href="https://www.facebook.com"><img src="img/facebook.png"></a></div> 
+                <div> <a href="https://www.instagram.com"><img src="img/instagram.png"></a></div> 
+                <div> <a href="https://www.twitter.com"><img  src="img/twitter.png"></a></div> 
+
+            </div>
+
+    </div>
+             
+        <div class="header-inferior">
+        
+            <div id="logo">
+                <a href="Inicio-Cinertec.html"><img src="img/Titulo.png"></a>
+            </div>
+
+
+            <div id="sub-menu">
+                <ul>
+                    <li><a href="Peliculas.html">Peliculas</a></li>
+                    <li><a href="Promociones.html">Promociones</a> </li>
+                    <li><a href="Productos.html">Locales</a></li>
+                    <li><a href="Confiteria.html">Confiteria</a></li>
+                </ul>
+            </div>
+            <div id="desplegable">
+
+                <ul onmouseover="desplegableon(this)" onmouseout="desplegableoff(this)">
+                    <li><a href=""><strong> CINERTEC MALL PLAZA BELLAVISTA</strong></a> 
+                        <ul id="ul">
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC MEGA PLAZA COMAS</a > </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC MALL PLAZA BELLAVISTA</a> </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC REAL PLAZA PRO</a> </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC PLAZA VEA VENTANILLA</a> </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC LA RAMBLA JAVIER PRADO</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+                        
+            </div>
+
+        </div> 
+    
+    </header>
+
+    <main><!--bloque principal donde agregaran el contenido de todas las paginas-->
+        <section>
+            <div class="conetenslider" id="contenclider">
+
+                <div class="contenedorslider">
+     
+                 <section class="contenido-slider" id="contenidoslider">
+                     <img src="img_peli/banner1.jpg" alt="slider 1">
+                     <div>
+                         <button href="#">Mas informacion</button>>
+                     </div>
+                     
+                 </section>
+                 
+                 <section class="contenido-slider" id="contenidobanner">
+                     <img src="img_peli/banner2.jpg" alt="slider2">
+                  <div>
+                      <button href="#">Mas informacion</button>
+                  </div>
+                 </section>
+     
+                 <section class="contenido-slider" id="contenidobanner">
+                     <img src="img_peli/banner3.jpg" alt="slider3">
+                  <div>
+                      <button href="#">Mas informacion</button>
+                  </div>
+                  
+                 </section>
+                 
+                 <section class="contenido-slider" id="contenidoslider">
+                     <img src="img_peli/banner4.jpg" alt="slider 1">
+                     <div>
+                         <button href="#grid_cartelera">Mas informacion</button>
+                     </div>
+                     
+                 </section>
+     
+                </div>
+     
+             </div>
+            <div class="button">
+                <div class="option_menu">
+                <a href="#grid_cartelera">CARTELERA</a>
+                <a href="#grid_proximamente">PROXIMAMANTE</a>
+            </div>
+            <br>
+
+            <!--GRID CARTELERA-->
+            <section >               
+                <h2 class="h2cab" id="grid_cartelera">CARTELERA</h2>
+                <div class="grid" >
+                <article class="blok"  onmouseover="overblok(this)" onmouseout="outblok(this)">
+                    <img class="imgblok" src="img_peli/car1.jpg" />
+                    <div class="div_ptitulo">
+                        <a class="ptitulo">VER HORARIOS</a>
+
+                    </div>
+
+                </article>
+                <article class="blok"  onmouseover="overblok(this)" onmouseout="outblok(this)">
+                    <img class="imgblok" src="img_peli/car2.jpg" />
+                    <div class="div_ptitulo">
+                        <a class="ptitulo">VER HORARIOS</a>
+
+                    </div>
+
+                </article>
+                <article class="blok" onmouseover="overblok(this)" onmouseout="outblok(this)">
+                    <img class="imgblok" src="img_peli/car3.jpg" />
+                    <div class="div_ptitulo">
+                        <a class="ptitulo">VER HORARIOS</a>
+
+                    </div>
+
+                </article>
+                <article class="blok" onmouseover="overblok(this)" onmouseout="outblok(this)">
+                    <img class="imgblok" src="img_peli/car4.jpg" />
+                    <div class="div_ptitulo">
+                        <a class="ptitulo">VER HORARIOS</a>
+
+                    </div>
+                </article>
+                <article class="blok" onmouseover="overblok(this)" onmouseout="outblok(this)">
+                    <img class="imgblok" src="img_peli/car5.jpg" />
+                    <div class="div_ptitulo">
+                        <a class="ptitulo">VER HORARIOS</a>
+
+                    </div>
+                </article>
+                <article class="blok" onmouseover="overblok(this)" onmouseout="outblok(this)">
+                    <img class="imgblok" src="img_peli/car6.jpg" />
+                    <div class="div_ptitulo"> 
+                            <a class="ptitulo">VER HORARIOS</a>
+    
+                    </div>
+
+                </article>
+                <article class="blok" onmouseover="overblok(this)" onmouseout="outblok(this)">
+                    <img class="imgblok" src="img_peli/car7.jpg" />
+                    <div class="div_ptitulo">
+                        <a class="ptitulo">VER HORARIOS</a>
+
+                    </div>
+
+                </article>
+                <article class="blok" onmouseover="overblok(this)" onmouseout="outblok(this)">
+                    <img class="imgblok" src="img_peli/car8.jpg" />
+                    <div class="div_ptitulo">
+                        <a class="ptitulo">VER HORARIOS</a>
+
+                    </div>
+
+                </article>
+
+                
+                </div>
+
+            <!--GRID PROXIMAMENTE-->
+            <section >
+               
+                <h2 class="h2cab" id="grid_proximamente">PROXIMAMANTE</h2>
+                <div class="grid" >
+                <article class="blok"  onmouseover="overblok(this)" onmouseout="outblok(this)">
+                    <img class="imgblok" src="img_peli/car1.jpg" />
+                    <div class="div_ptitulo">
+                        <a class="ptitulo">VER HORARIOS</a>
+
+                    </div>
+
+                </article>
+                <article class="blok"  onmouseover="overblok(this)" onmouseout="outblok(this)">
+                    <img class="imgblok" src="img_peli/car2.jpg" />
+                    <div class="div_ptitulo">
+                        <a class="ptitulo">VER HORARIOS</a>
+
+                    </div>
+
+                </article>
+                <article class="blok" onmouseover="overblok(this)" onmouseout="outblok(this)">
+                    <img class="imgblok" src="img_peli/car3.jpg" />
+                    <div class="div_ptitulo">
+                        <a class="ptitulo">VER HORARIOS</a>
+
+                    </div>
+
+                </article>
+                <article class="blok" onmouseover="overblok(this)" onmouseout="outblok(this)">
+                    <img class="imgblok" src="img_peli/car4.jpg" />
+                    <div class="div_ptitulo">
+                        <a class="ptitulo">VER HORARIOS</a>
+
+                    </div>
+                </article>
+                <article class="blok" onmouseover="overblok(this)" onmouseout="outblok(this)">
+                    <img class="imgblok" src="img_peli/car5.jpg" />
+                    <div class="div_ptitulo">
+                        <a class="ptitulo">VER HORARIOS</a>
+
+                    </div>
+                </article>
+                <article class="blok" onmouseover="overblok(this)" onmouseout="outblok(this)">
+                    <img class="imgblok" src="img_peli/car6.jpg" />
+                    <div class="div_ptitulo"> 
+                            <a class="ptitulo">VER HORARIOS</a>
+    
+                    </div>
+
+                </article>
+                <article class="blok" onmouseover="overblok(this)" onmouseout="outblok(this)">
+                    <img class="imgblok" src="img_peli/car7.jpg" />
+                    <div class="div_ptitulo">
+                        <a class="ptitulo">VER HORARIOS</a>
+
+                    </div>
+
+                </article>
+                <article class="blok" onmouseover="overblok(this)" onmouseout="outblok(this)">
+                    <img class="imgblok" src="img_peli/car8.jpg" />
+                        <div class="div_ptitulo">
+                            <a class="ptitulo">VER HORARIOS</a>
+
+                        </div>
+                </article>                
+            </div>
+            <!--GRID PREVENTA-->
+    <section >
+       
+        <h2 class="h2cab" id="grid_proximamente">PREVENTA</h2>
+        <div class="grid" >
+        <article class="blok"  onmouseover="overblok(this)" onmouseout="outblok(this)">
+            <img class="imgblok" src="img_peli/car1.jpg" />
+            <div class="div_ptitulo">
+                <a class="ptitulo">VER HORARIOS</a>
+
+            </div>
+    </article>
+    </section>
+            </section>
+
+            
+
+        </section>
+
+
+
+    </main><!--de aqui para abajo no tocar, puesto que es el footer a menos que quieran modificar algo-->
+
+    <footer>
+        <div id="logo-footer"><a  href="Inicio-Cinertec.html"><img src="img/Titulo1.png"> </a> </div>
+        <div id="contenido"><strong>PROGRAMACION</strong>
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;" ><a href="">Cartelera</a></li>
+                <li><a href="">Proximamente</a></li>
+                <li><a href="">Preventa</a></li>
+            </ul>
+        </div>
+        <div id="contenido"><strong>SOBRE CINERTEC</strong>
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;"><a href="">Nosotros</a></li>
+                <li><a href="Sala_formatos.html">Formato de salas</a></li>
+                <li><a href="TerminosyConficiones.html">Terrminos y condiciones</a></li>
+                <li><a href="">Politica de Proteccion de Datos Personales</a></li>
+            </ul>
+        </div>
+        <div id="contenido"><strong>OTROS SERVICIOS</strong>
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;"><a href="">Salas privadas</a></li>
+                <li><a href="">Publicidad</a></li>
+            </ul>
+        </div>
+        <div id="contenido"><strong>CONTACTO</strong> 
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;"><a href="">Escribenos</a></li>
+                <li><a href="">Trabaja con nosotros</a></li>
+                <li ><a href="">Libro de reclamaciones
+                    <img src="img/libro.png">
+                </a></li>
+            </ul>
+        </div>
+    </footer>
+    
+
+    <script src="js/Peliculas.js"></script>
+</body>
+</html>

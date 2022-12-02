@@ -1,0 +1,461 @@
+body{
+
+    margin:0 auto;
+    padding:0;
+    background-position: bottom;     
+}
+
+header{
+
+    width:90%;
+    height: 15%;
+    margin: 0 5% 0 5%;
+    background-color: rgb(7, 7, 7);
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    opacity: 0.8;
+    
+}
+
+.header-superior{
+
+    width: 100%;
+    height: 30%;
+    background-color: rgb(26, 24, 24);
+    opacity: 1;
+}
+
+.menu{
+
+    float: left;
+    position: absolute;
+    right: 160;
+}
+
+.header-superior>.menu>ul>li>a{
+
+    text-decoration: none;
+    color: rgb(168, 168, 168);
+    font-size: 12;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.header-superior>.menu>ul{
+
+    display: block;
+    display: flex;
+    height: 5px;
+    margin-top: 5px;
+}
+
+.header-superior>.menu>ul>li{
+
+    list-style-type: none;
+    display: block;
+    float: right;
+    margin: 0 25px 0 0px;
+}
+
+.botones{
+
+    position: absolute;
+    top:0;
+    right:2px;  
+}
+
+
+.Login{
+
+    width: 80px;
+    height: 25px;
+    background-color: rgba(128, 128, 128, 0.703);
+    border: 0;
+    font-size: 12;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 4px;
+}
+/*bton para gegistrarse*/
+.Registrarse{
+
+    width: 80px;
+    height: 25px;
+    background-color: rgba(96, 6, 6, 0.703);
+    border: 0;
+    font-size: 12;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 4px;
+}
+
+.header-superior>.Redes{
+
+    width:30%;
+    height:80%;
+    float: left;
+    display: flex;
+}
+
+.header-superior>.Redes>div{
+
+    height:100%;
+    width: 10%;
+    margin-top: 5px;
+}
+
+.header-superior>.Redes>div>a>img{
+
+    object-fit: contain;
+    width: 80%;
+    height: 80%;
+    padding-left: 12px;
+}
+
+.header-inferior{
+
+    width: 100%;
+    height:70%;
+    display: flex;
+}
+
+#logo{
+
+    width: 30%;
+    height: 100%;
+}
+#logo>a>img{
+
+    margin-top: 8px;
+    object-fit: contain;
+    width: 50%;
+    height: 80%;
+}
+
+#sub-menu{
+
+    width: 40%;
+    height: 100%;
+    margin-left: 20px;   
+}
+
+#sub-menu ul li{
+
+    list-style-type: none;
+    float: left;
+    margin: 8px 0 0 20px;
+    
+}
+
+#sub-menu ul li a{
+
+    text-decoration: none; 
+    font-size: 15;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 0, 0, 0.45);
+}
+
+#desplegable{
+
+    margin: 0px 0 0 70px; 
+}
+
+#desplegable ul li, #desplegable ul ul li{
+
+    list-style-type: none;
+}
+
+#desplegable ul ul{
+    
+    display: none;
+    padding-top:5px;
+    
+}
+
+#desplegable ul li a, #desplegable ul ul a{
+
+    text-decoration: none;
+    font-size: 11px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: block;
+    padding: 5px;
+}
+
+#desplegable ul , #desplegable ul ul{
+
+    margin: 15px 0 0 20px;
+    padding: 5px;
+    background-color:black;
+    border-radius: 4px;
+}
+/*tiulo del cuerpo*/
+#titulo{
+    height: 100%;
+    width: 50%;
+    color:rgba(140,63,82,255);
+    padding: 0px 0px 2px 70px;
+    display: flex;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: xx-large;
+
+}
+/*Carrusel para las imagenes*/
+.carrusel1{
+    margin: 0;
+    height: 78%;
+    width: 100%;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+}
+#carrusellocales{
+    width:100%;
+    height:100%;
+    float:left;
+    border-radius: 40px;
+}
+/*tipo de sala*/
+#tiposala{
+    height: 60%;
+    width: 40%;
+    background-color: blanchedalmond;
+    color: #8c3838;
+    text-decoration: underline;
+    font-size: 27px;
+    padding: 10px 0px 0px 100px;
+    display: flex;
+
+}
+/*MIS botones arriba de los locale*/
+.botonesv1{
+    height: 20%;
+    width:90%;
+    margin: 0 5% 0 5%;
+    background-color: #8c3838;
+    
+}
+.BOTONES2{
+    position: relative;
+    text-align: center;
+    color: #616161;
+}
+#BOTON1{
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: 45px;
+    background-color: #e0e0e0;
+    border: 0;
+    font-size: 30;
+    font-family: 'Caveat Brush';
+    border-radius: 8px;
+
+}
+#BOTON2{
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: 45px;
+    background-color: #e0e0e0;
+    border: 0;
+    font-size: 30;
+    font-family: 'Caveat Brush';
+    border-radius: 8px;
+}
+#BOTON3{
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: 45px;
+    background-color: #e0e0e0;
+    border: 0;
+    font-size: x-large; 
+    font-family: 'Caveat Brush';
+    border-radius: 8px;
+
+}
+#BOTON4{
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: 45px;
+    background-color: #e0e0e0;
+    border: 0;
+    font-size:24;
+    font-family: 'Caveat Brush';
+    border-radius: 8px;
+    padding: 2px 2px 2px 2px;
+
+
+}
+
+
+main{
+    width: 90%;
+    margin: 94 5% 0 5%;
+}
+.separador{
+    width: 100%;
+    height: 8%;
+    background-color: blanchedalmond;
+}
+
+section{
+    margin: 0 5% 0 5%;
+    width:90%;
+    height: 100%; /*referencial, una vez agregas contenido a section modificar este largo*/
+    background-color: blanchedalmond;
+
+}
+
+/*CONTENIDO*/
+.local1{
+    height: 100%;
+    width:50%;
+
+    display: flex;
+    align-items: center;
+
+}
+#primeraSala{
+    width:90%;
+    height:80%;
+    border-radius: 25px;
+    padding: 14px 14px 14px 14px;
+    background-color: #8c3838;
+   
+}
+
+
+/*los parrafos y testos de los articulos*/
+article{
+    color: #8c3838;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: x-large;
+}
+
+#parrafo{
+    width: 60%;
+    color: #000000;
+    font-size:large;
+    text-align: justify;
+    padding: 0px 0px 0px 20px;
+    background-color: blanchedalmond;
+}
+
+article.li.a{
+    background-color: azure;
+}
+
+/*boton de visitar*/
+#visitar{
+    width: 100px;
+    height: 40px;
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding-left: 10px;
+    cursor: pointer;
+    
+
+}
+#visitarizq{
+    width: 100px;
+    height: 40px;
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    float: right; 
+
+}
+
+/*segunda imagen*/
+.local2{
+    height: 100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+
+}
+#segundaSala{
+    width:85%;
+    height:85%;
+    border-radius: 25px;
+    padding: 14px 14px 14px 14px;
+    
+    background-color: #8c3838;
+}
+#direccion{
+    font-size: 12; 
+    letter-spacing: 2px;
+    padding-left: 20px;
+}
+
+footer{
+    background-color: azure;
+    width: 90%;
+    height: 30%;
+    position:relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top-style:solid ;
+    border-top-color: gray;
+    margin: 0 5% 0 5%;
+    display:flex;
+    
+}
+#logo-footer{
+
+    width: 27%;
+    height: 100%;
+    margin-left: 1%;
+}
+
+#logo-footer a img{
+
+    object-fit: contain;
+    width: 80%;
+    height: 80%;
+    margin: 30 0px 0 30;
+
+}
+
+#contenido{
+
+    width:18%;
+    height: 100%;
+    margin:5 10 0 0;
+    border-color: gray;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 15;
+    color: gray;
+    
+
+}
+
+footer li {
+    list-style-type: none;
+    display: block;
+    margin-right:35px;
+    padding:0;
+    text-align: left;
+}
+footer li a{
+
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px;
+    font-size: 11;    
+}
+col{
+    color:rgb(141, 148, 246)
+}
+
+

@@ -1,0 +1,200 @@
+<html>
+
+<head>
+    
+    <meta charset="utf-8"> <!--para poder usar sin problemas las tildes-->
+    <title>CINERTEC</title> 
+    <link type="text/css" rel="stylesheet" href="css/estilos-inicio.css"/> <!--Enlazar el html con la hoja de css respectiva-->
+    <script src="js/archivo-inicio.js"></script> <!--Enlazar archivo js con html-->
+    <link rel="shortcut icon" href="img/iconoWeb.ico" type="image/x-icon"> <!--para mostrar el icono de la tienda en la pestaña de la pagina-->
+    
+    
+</head>
+
+<body onload="carrusel(), socio() ">
+    
+    <header>
+       
+        <div class="header-superior">
+            <div class="botones">
+                <button class="Login">Login</button>
+                <a href="registro.html"><button class="Registrarse">Registrarse</button></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#">Conocenos</a></li>
+                    <li><a href="otros-servicios.html">otros servicios</a></li>
+                </ul>
+            </div>
+            <div class="Redes">
+
+                <div> <a href="https://www.facebook.com"><img src="img/facebook.png"></a></div> 
+                <div> <a href="https://www.instagram.com"><img src="img/instagram.png"></a></div> 
+                <div> <a href="https://www.twitter.com"><img  src="img/twitter.png"></a></div> 
+
+            </div>
+
+    </div>
+             
+        <div class="header-inferior">
+        
+            <div id="logo">
+                <a href="Inicio-Cinertec.html"><img src="img/Titulo.png"></a>
+            </div>
+            <div id="sub-menu">
+                <ul>
+                    <li><a  href="Peliculas.html">Peliculas</a></li>
+                    <li><a  href="Promociones.html">Promociones</a> </li>
+                    <li><a  href="Productos.html">Locales</a></li>
+                    <li><a  href="Confiteria.html">Confiteria</a></li>
+                </ul>
+            </div>
+            <div id="desplegable">
+
+                <ul onmouseover="desplegableon(this)" onmouseout="desplegableoff(this)">
+                    <li><a href=""><strong> CINERTEC MALL PLAZA BELLAVISTA</strong></a> 
+                        <ul id="ul">
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC MEGA PLAZA COMAS</a > </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC MALL PLAZA BELLAVISTA</a> </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC REAL PLAZA PRO</a> </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC PLAZA VEA VENTANILLA</a> </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC LA RAMBLA JAVIER PRADO</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+                        
+            </div>
+
+        </div> 
+    
+    </header><br>
+    <main><!--bloque principal donde agregaran el contenido de todas las paginas-->
+        <section>
+            <div class="carrusel-container" >
+                <div class="carrusel" id="carrusel">
+                    <img id="imgcarrusel" src="img/carrusel1.jpg" alt="">             
+            
+                </div>
+                
+            </div>
+            <br>
+            <p>ESTRENOS</p>
+            <br>
+                <div class="container">
+                    <div class="estrenos" onmouseover="ocultarTexto(this)" onmouseout="mostrarTexto(this)">
+                        <img id="imgestre" src="img/carrusel1.jpg" alt="">
+                        <p class="contexto">MORTAL KOMBAT</p>
+                        <p class="contexto1">Mortal Kombat es una película perteneciente al género de 
+                                            fantasía oscura, artes marciales y gore estadounidense del 
+                                            año 2021 dirigida por Simon McQuoid, en su debut como director
+                                            , a partir de un guion de Greg Russo y Dave Callaham y una 
+                                            historia de Oren Uziel y Russo.</p>
+                                            <br>
+                                            <iframe width="255" height="150" src="https://www.youtube.com/embed/ZT7rSBbhFGE" 
+                                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                                            gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="estrenos" onmouseover="ocultarTexto(this)" onmouseout="mostrarTexto(this)">
+                        <img id="imgestre" src="img/carrusel2.jpg" alt="">
+                        <p class="contexto">ALICE IN WASTELAND</p>
+                        <p class="contexto1">You Can't Keep a Bad Girl Down - Roxane Sondrup plays Alice Wynn,
+                                             a trailer park girl who conspires with her hooligan 
+                                             girlfriends to strike it rich by robbing an armored truck. 
+                                             When things go wrong, Alice sets off on a bloody mission 
+                                             of revenge.</p>
+                                            <br>
+                                            <iframe width="255" height="150" src="https://www.youtube.com/embed/eHOmHgESKnw" title="YouTube video player"
+                                             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                             allowfullscreen></iframe></div>
+
+                    <div class="estrenos" onmouseover="ocultarTexto(this)" onmouseout="mostrarTexto(this)">
+                        <img id="imgestre" src="img/carrusel3.jpg" alt="">
+                        <p class="contexto">JUNE</p>
+                        <p class="contexto1">A partir de la propia infancia del escritor y productor Nikhil 
+                                                Mahajan y de sus conocidos, 'June' es un retrato de dos personas
+                                                 con problemas que se ayudan a sanar mutuamente.</p>
+                                                <br>
+                                                <iframe width="255" height="150" src="https://www.youtube.com/embed/nkUSKvWE0fc" 
+                                                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                                                encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+                    <div class="estrenos" onmouseover="ocultarTexto(this)" onmouseout="mostrarTexto(this)">
+                        <img id="imgestre" src="img/carrusel4.jpg" alt="">
+                        <p class="contexto">ALADDIN</p>
+                        <p class="contexto1"> Es una adaptación en imagen real de la película animada homónima de 
+                                                1992 de Disney, la cual a su vez está basada en el cuento de hadas 
+                                                árabe del mismo nombre de Las mil y una noches y en la película El 
+                                                ladrón de Bagdad (1940) y la interpretación francesa hecha por Antoine 
+                                                Galland</p>
+                                                <br>
+                                                <iframe width="255" height="150" src="https://www.youtube.com/embed/lU_JXyQ338M" 
+                                                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                                                clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                                allowfullscreen></iframe></div>
+                </div>
+                
+            <p style="padding-top: 35%">PROMOCIONES >>>> <a  id="acolor" href="Socios.html">¿Ya eres Socio? </a></p>
+            
+
+            <div class="galeria" onclick="clickear()">
+                <div class="img-galeria"  ><img src="img/descuentos1.jpg" alt="images!!" ></div>
+                <div class="img-galeria"><img src="img/descuentos2.jpg" alt="images!!"></div>
+                <div class="img-galeria"><img src="img/descuentos3.jpg" alt="images!!"></div>
+                <div class="img-galeria"><img src="img/descuentos4.jpg" alt="images!!"></div>
+                <div class="img-galeria"><img src="img/descuentos5.png" alt="images!!"></div>
+                <div class="img-galeria"><img src="img/descuentos6.jpg" alt="images!!"></div>
+            </div>
+            <div class="modal">
+                <span class="close" onclick="cerrar()">X</span>
+                <img src='img/promo.jpg' alt="" id="mymodalimg">
+                <div class="caption-text"></div>
+                <div class="lists">
+                        <img src="img/descuentos1.jpg" alt="images!!" onmouseover="verProducto(this)" onmouseout="ocultarProducto(this)">
+                        <img src="img/descuentos2.jpg" alt="images!!" onmouseover="verProducto(this)" onmouseout="ocultarProducto(this)">
+                        <img src="img/descuentos3.jpg" alt="images!!" onmouseover="verProducto(this)" onmouseout="ocultarProducto(this)">
+                        <img src="img/descuentos4.jpg" alt="images!!" onmouseover="verProducto(this)" onmouseout="ocultarProducto(this)">
+                        <img src="img/descuentos5.png" alt="images!!" onmouseover="verProducto(this)" onmouseout="ocultarProducto(this)">
+                        <img src="img/descuentos6.jpg" alt="images!!" onmouseover="verProducto(this)" onmouseout="ocultarProducto(this)"> 
+                </div>
+            </div>
+                
+        </section>
+    </main><!--de aqui para abajo no tocar, puesto que es el footer a menos que quieran modificar algo-->
+    <footer>
+        <div id="logo-footer"><a  href="Inicio-Cinertec.html"><img src="img/Titulo1.png"> </a> </div>
+        <div id="contenido"><strong>PROGRAMACION</strong>
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;" ><a href="">Cartelera</a></li>
+                <li><a href="">Proximamente</a></li>
+                <li><a href="">Preventa</a></li>
+            </ul>
+        </div>
+        <div id="contenido"><strong>SOBRE CINERTEC</strong>
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;"><a href="">Nosotros</a></li>
+                <li><a href="Sala_formatos.html">Formato de salas</a></li>
+                <li><a href="TerminosyConficiones.html">Terrminos y condiciones</a></li>
+                <li><a href="">Politica de Proteccion de Datos Personales</a></li>
+            </ul>
+        </div>
+        <div id="contenido"><strong>OTROS SERVICIOS</strong>
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;"><a href="">Salas privadas</a></li>
+                <li><a href="">Publicidad</a></li>
+            </ul>
+        </div>
+        <div id="contenido"><strong>CONTACTO</strong> 
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;"><a href="">Escribenos</a></li>
+                <li><a href="">Trabaja con nosotros</a></li>
+                <li ><a href="">Libro de reclamaciones
+                    <img src="img/libro.png">
+                </a></li>
+            </ul>
+        </div>
+    </footer>
+    
+
+
+</body>
+</html>

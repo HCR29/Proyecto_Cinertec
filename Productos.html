@@ -1,0 +1,302 @@
+<html>
+
+<head>
+    
+    <meta charset="utf-8"> <!--para poder usar sin problemas las tildes-->
+    <title>CINERTEC-LOCALES</title> 
+    <link type="text/css" rel="stylesheet" href="css/Productos.css"/> <!--Enlazar el html con la hoja de css respectiva-->
+    <script src="js/Productos.js"></script> <!--Enlazar archivo js con html-->
+    <link rel="shortcut icon" href="img/iconoWeb.ico" type="image/x-icon"> <!--para mostrar el icono de la tienda en la pestaña de la pagina-->
+    
+    
+</head>
+
+<body onload="carrusel(); colorear();">
+    
+    <header>
+       
+        <div class="header-superior">
+            <div class="botones">
+                <button class="Login">Login</button>
+                <a href="registro.html"><button class="Registrarse">Registrarse</button></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#">Conocenos</a></li>
+                    <li><a href="otros-servicios.html">otros servicios</a></li>
+                </ul>
+            </div>
+            <div class="Redes">
+
+                <div> <a href="https://www.facebook.com"><img src="img/facebook.png"></a></div> 
+                <div> <a href="https://www.instagram.com"><img src="img/instagram.png"></a></div> 
+                <div> <a href="https://www.twitter.com"><img  src="img/twitter.png"></a></div> 
+
+            </div>
+
+    </div>
+             
+        <div class="header-inferior">
+        
+            <div id="logo">
+                <a href="Inicio-Cinertec.html"><img src="img/Titulo.png"></a>
+            </div>
+            <div id="sub-menu">
+                <ul>
+                    <li><a href="Peliculas.html">Peliculas</a></li>
+                    <li><a href="Promociones.html">Promociones</a> </li>
+                    <li><a href="Productos.html">Locales</a></li>
+                    <li><a href="Confiteria.html">Confiteria</a></li>
+                </ul>
+            </div>
+            <div id="desplegable">
+
+                <ul onmouseover="desplegableon(this)" onmouseout="desplegableoff(this)">
+                    <li><a href=""><strong> CINERTEC MALL PLAZA BELLAVISTA</strong></a> 
+                        <ul id="ul">
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC MEGA PLAZA COMAS</a > </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC MALL PLAZA BELLAVISTA</a> </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC REAL PLAZA PRO</a> </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC PLAZA VEA VENTANILLA</a> </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC LA RAMBLA JAVIER PRADO</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+                        
+            </div>
+
+        </div> 
+    
+    </header>
+    <main><!--bloque principal donde agregaran el contenido de todas las paginas-->
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+        <div style="width: 100%;height: 10%; background-color:blanchedalmond;">
+        <div id="titulo"><h2 style="font-family: Fjalla One;"><i> LOCALES</i></h2> </div>
+        </div>
+        <div class="carrusel1">
+            <div style="width: 90%;height:80%;background-color: blanchedalmond;margin:auto;">
+                <img id="carrusellocales" src="img/IMAGEN1.jpg"/>
+            </div>
+        </div>
+        </main>
+        <!--Seccion del contenido-->
+        
+<!--PRIMER bloque-->
+<section>
+    <!--tipo de sala-->
+    <div style="height: 10%;width:100%; background-color:blanchedalmond;">
+         <div id="tiposala">Por tipo de Sala:</div>
+    </div>
+    
+    <!--Botones-->
+
+     <div class="Botonesv1">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@700&family=Fjalla+One&display=swap" rel="stylesheet">
+        <div class="BOTONES2">
+            <button id="BOTON1" onclick="mostrarcolorboton()" onmouseover="efecto_rotacionqe(this)" onmouseout="efecto_rotacionqes(this)">3D </button>
+            <button id="BOTON2" onclick="mostrarcolorboton2()" onmouseover="efecto_rotacionqe(this)" onmouseout="efecto_rotacionqes(this)"><i>4D</i> </button>
+            <button id="BOTON3" onclick="mostrarcolorboton3()" onmouseover="efecto_rotacionqe(this)" onmouseout="efecto_rotacionqes(this)"><i>PREMIUM X</i> </button>
+            <button id="BOTON4" onclick="mostrarcolorboton4()" onmouseover="efecto_rotacionqe(this)" onmouseout="efecto_rotacionqes(this)"><i>EXTREME X</i> </button>
+        </div>
+    
+    </div> 
+    <div class="separador"></div>
+    <!--imagen del local-->
+    <div style="height: 50%; width:100%; display: flex;">
+        <div class="local1" >
+            
+                <div style="width: 90%;height:90%;background-color: rgb(124, 124, 132);margin: auto;display: flex;padding: 10px 0px 0px 30px;">
+                    <img id="primeraSala" src="img/local1.jpg" onmouseover="dentro(this)" onmouseout="fuera(this)"/>
+                </div>
+            
+        </div> 
+        <!--iParrafo y parte escrita-->
+        <div style="height: 100%; width:50%; float: right;">
+                 <article>
+                    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@700&family=Fjalla+One&display=swap" rel="stylesheet">
+                    <h1 style="padding: 0px 0px 0px 20px;">MALL AVENTURA PLAZA BELLAVISTA</h1>
+                    <p id="parrafo">Cinertec MALL AVENTURA PLAZA BELLAVISTA cuenta con un espacio amplio y completamente 
+                        acondicionado para recibir al publico que quiera disfrutar de una proyeccion de 
+                        alguna pelicula en nuestras salas.
+                    </p>
+                    <li style="padding: 0px 0px 0px 20px;font-size: 20; text-decoration: dashed;color: black;">Salas 3D Y 4D</li><br>
+                    <a id="direccion" href="https://www.google.com/maps/place/Mallplaza+Bellavista/@-12.054905,-77.1069698,16z/data=!3m1!5s0x9105c95805bd3f61:0xaf45f0c62b909a31!4m5!3m4!1s0x9105c950dd521af9:0xb6170f05e03d3f94!8m2!3d-12.0556177!4d-77.1019947">Av. Óscar R. Benavides 3866, Callao 07011</a><br>
+                     <br>
+                     <div style="width: 70%;height: 12%; ; padding-left: 20px;">
+                    <button id="visitar" onmouseover="efecto_rotacion(this)" onmouseout="efecto_rotacionq(this)">VISITAR</button>
+                     </div>
+                 </article>
+        </div> 
+    </div>   
+    <div class="separador"></div>
+</section>
+<!--SEGUNDO bloque-->
+<section>
+    <div style="height:45%;width:100% ; display: flex;">
+         <!--SEGUNDO PARRAFO-->
+          <div style="height:100% ; width:50% ;">
+            <article>
+                <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@700&family=Fjalla+One&display=swap" rel="stylesheet">
+                <h1 style="padding: 0px 0px 0px 20px;">MEGA PLAZA INDEPENDENCIA</h1>
+                <p id="parrafo">Cinertec MEGA PLAZA INDEPENDENCIA cuenta con un espacio amplio y completamente acondicionado 
+                    para recibir al publico que quiera disfrutar de una proyeccion de alguna pelicula en nuestras salas.
+                </p>
+                <li style="padding: 0px 0px 0px 20px;font-size: 20; text-decoration: dashed;color: black;">Salas 3D , 4D Y EXTREME X</li><br>
+                <a id="direccion" href="https://goo.gl/maps/MrBADE6x16k2K6eUA"> Av. Alfredo Mendiola 25017, San Martín de Porres 15311</a><br>
+                
+                 <div style="width: 70%;height: 12%; ; padding-left: 20px;">
+                <button id="visitarizq" onmouseover="efecto_rotacion(this)" onmouseout="efecto_rotacionq(this)">VISITAR</button>
+                 </div>
+             </article>
+         </div>
+          <!--Imagen de mall Plaza-->
+          <div style="height:100% ; width:50% ; float: right;">
+                <div class="local2" >
+                    
+                        <div style="width: 80%;height:95%;background-color: rgb(52, 52, 54);margin: auto;display: flex;padding:10px 0px 0px 30px;">
+                            <img id="segundaSala" src="img/local2.jpg" onmouseover="dentro(this)" onmouseout="fuera(this)"/>
+                        </div>
+                    
+                </div> 
+          
+          </div>
+    </div>
+    <div class="separador"></div>
+    <div style="height:45%;width:100% ; display: flex;">
+            <!--imagen la rambla-->
+        <div style="height:100% ; width:50% ;">
+            <div class="local2" >
+                    
+                <div style="width: 80%;height:95%;background-color: rgb(52, 52, 54);margin: auto;display: flex;padding:10px 0px 0px 40px;">
+                    <img id="segundaSala" src="img/local3.jpg" onmouseover="dentro(this)" onmouseout="fuera(this)"/>
+                </div>
+            
+            </div> 
+
+        </div>
+           <!--TERCER PARRAFO-->
+        <div style="height:100% ; width:50% ;">
+            <article>
+                <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@700&family=Fjalla+One&display=swap" rel="stylesheet">
+                <h1 style="padding: 0px 0px 0px 20px;">LA RAMBLA JAVIER PRADO</h1>
+                <p id="parrafo">Cinertec LA RAMBLA JAVIER PRADO cuenta con un espacio amplio y completamente acondicionado 
+                    para recibir al publico que quiera disfrutar de una proyeccion de alguna pelicula en nuestras salas.
+                </p>
+                <li style="padding: 0px 0px 0px 20px;font-size: 20; text-decoration: dashed;color: black;">Salas 3D , 4D Y EXTREME X</li><br>
+                <a id="direccion"   href="https://goo.gl/maps/S2mZgeqVRZ8SewRW6"> Av. Javier Prado Este 2010, Lima 15036</a><br>
+                
+                 <div style="width: 70%;height: 12%; padding-left: 20px;">
+                <button id="visitar"  onmouseover="efecto_rotacion(this)" onmouseout="efecto_rotacionq(this)">VISITAR</button>
+                 </div>
+             </article>
+        </div>
+    
+    
+    </div>
+</section>
+<!--TERCER bloque-->
+    <section>
+        <div class="separador"></div>
+        <div style="height:40%;width:100% ; display: flex;">
+             <!--CUARTO parrafo-->
+            <div style="height:100% ; width:50% ;">
+                <article>
+                    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@700&family=Fjalla+One&display=swap" rel="stylesheet">
+                    <h1 style="padding: 0px 0px 0px 20px;">JOCKEY PLAZA SURCO</h1>
+                    <p id="parrafo">Cinertec JOCKEY PLAZA SURCO cuenta con un espacio amplio y completamente acondicionado 
+                        para recibir al publico.
+                    </p>
+                    <li style="padding: 0px 0px 0px 20px;font-size: 17; text-decoration: dashed;color: black;">Salas 3D , 4D Y EXTREME X</li><br>
+                    <a id="direccion"   href="https://goo.gl/maps/cEwDnKdVyuCksHDS8">Av. Javier Prado Este 4200, Santiago de Surco 15023</a><br>
+                    
+                     <div style="width: 70%;height: 13%; padding-left: 20px;">
+                    <button id="visitarizq"  onmouseover="efecto_rotacion(this)" onmouseout="efecto_rotacionq(this)">VISITAR</button>
+                     </div>
+                 </article>
+            
+            </div>
+          <!--cuarto imagen-->
+            <div style="height:100% ; width:50% ; float: right;">
+                <div class="local2" >
+                    
+                    <div style="width: 80%;height:95%;background-color: rgb(52, 52, 54);margin: auto;display: flex;padding:10px 0px 0px 40px;">
+                        <img id="segundaSala" src="img/local4.jpg" onmouseover="dentro(this)" onmouseout="fuera(this)"/>
+                    </div>
+                
+                </div> 
+            
+            </div>
+      </div>
+      <div class="separador"></div>
+      <div style="height:40%;width:100% ; display: flex;">
+        <!--quinta imagen-->
+        <div style="height:100% ; width:50% ;">
+            <div class="local2" >
+                    
+                <div style="width: 80%;height:95%;background-color: rgb(52, 52, 54);margin: auto;display: flex;padding:10px 0px 0px 40px;">
+                    <img id="segundaSala" src="img/local5.jpg" onmouseover="dentro(this)" onmouseout="fuera(this)"/>
+                </div>
+            
+            </div> 
+        
+        </div>
+        <!--QUINTO PARRAFO-->
+        <div style="height:100% ; width:50% ; background-color:blanchedalmond ; float: right;">
+            <article>
+                <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@700&family=Fjalla+One&display=swap" rel="stylesheet">
+                <h1 style="padding: 0px 0px 0px 20px;">REAL PLAZA PRO</h1>
+                <p id="parrafo">Cinertec REAL PLAZA PRO cuenta con un espacio amplio
+                     y completamente acondicionado para recibir al publico. 
+                </p>
+                <li style="padding: 0px 0px 0px 20px;font-size: 17; text-decoration: dashed;color: black;">Salas 4D Y EXTREME X</li><br>
+                <a id="direccion"   href="https://goo.gl/maps/FQY3sSLGXBubbNxWA">Av. Alfredo Mendiola 7042, San Martín de Porres 15304</a>
+                <br>
+                 <div style="width: 70%;height: 15%;padding-left: 20px;">
+                <button id="visitar" onmouseover="efecto_rotacion(this)" onmouseout="efecto_rotacionq(this)"  >VISITAR</button>
+                 </div>
+             </article>
+        </div>
+  </div>
+
+    </section>
+    <!--de aqui para abajo no tocar, puesto que es el footer a menos que quieran modificar algo-->
+    <footer>
+        <div id="logo-footer"><a  href="Inicio-Cinertec.html"><img src="img/Titulo1.png"> </a> </div>
+        <div id="contenido"><strong>PROGRAMACION</strong>
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;" ><a href="">Cartelera</a></li>
+                <li><a href="">Proximamente</a></li>
+                <li><a href="">Preventa</a></li>
+            </ul>
+        </div>
+        <div id="contenido"><strong>SOBRE CINERTEC</strong>
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;"><a href="">Nosotros</a></li>
+                <li><a href="Sala_formatos.html">Formato de salas</a></li>
+                <li><a href="TerminosyConficiones.html">Terrminos y condiciones</a></li>
+                <li><a href="">Politica de Proteccion de Datos Personales</a></li>
+            </ul>
+        </div>
+        <div id="contenido"><strong>OTROS SERVICIOS</strong>
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;"><a href="">Salas privadas</a></li>
+                <li><a href="">Publicidad</a></li>
+            </ul>
+        </div>
+        <div id="contenido"><strong>CONTACTO</strong> 
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;"><a href="">Escribenos</a></li>
+                <li><a href="">Trabaja con nosotros</a></li>
+                <li ><a href="">Libro de reclamaciones
+                    <img src="img/libro.png">
+                </a></li>
+            </ul>
+        </div>
+    </footer>
+    
+
+
+</body>
+</html>
+<script src="js/Locales.js"></script>

@@ -1,0 +1,356 @@
+<html>
+
+<head>
+    
+    <meta charset="utf-8"> <!--para poder usar sin problemas las tildes-->
+    <title>CINERTEC-BLOG</title> 
+    <link type="text/css" rel="stylesheet" href="css/blog.css"/> <!--Enlazar el html con la hoja de css respectiva-->
+    <script src="js/blog.js"></script> <!--Enlazar archivo js con html-->
+   
+    
+    
+</head>
+
+<body onload="carrusel()">
+    
+    <header>
+       
+        <div class="header-superior">
+            <div class="botones">
+                <button class="Login">Login</button>
+                <a href="registro.html"><button class="Registrarse">Registrarse</button></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="#">Conocenos</a></li>
+                    <li><a href="./otros-servicios.html">otros servicios</a></li>
+                </ul>
+            </div>
+            <div class="Redes">
+
+                <div> <a href="https://www.facebook.com"><img src="img/facebook.png"></a></div> 
+                <div> <a href="https://www.instagram.com"><img src="img/instagram.png"></a></div> 
+                <div> <a href="https://www.twitter.com"><img  src="img/twitter.png"></a></div> 
+
+            </div>
+
+    </div>
+             
+        <div class="header-inferior">
+        
+            <div id="logo">
+                <a href="Inicio-Cinertec.html"><img src="img/Titulo.png"></a>
+            </div>
+            <div id="sub-menu">
+                <ul>
+                    <li><a href="Peliculas.html">Peliculas</a></li>
+                    <li><a href="Promociones.html">Promociones</a> </li>
+                    <li><a href="Productos.html">Locales</a></li>
+                    <li><a href="Confiteria.html">Confiteria</a></li>
+                </ul>
+            </div>
+            <div id="desplegable">
+
+                <ul onmouseover="desplegableon(this)" onmouseout="desplegableoff(this)">
+                    <li><a href=""><strong> CINERTEC MALL PLAZA BELLAVISTA</strong></a> 
+                        <ul id="ul">
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC MEGA PLAZA COMAS</a > </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC MALL PLAZA BELLAVISTA</a> </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC REAL PLAZA PRO</a> </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC PLAZA VEA VENTANILLA</a> </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC LA RAMBLA JAVIER PRADO</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+                        
+            </div>
+
+        </div> 
+    
+    </header>
+    <main><!--bloque principal donde agregaran el contenido de todas las paginas-->
+        <section>
+
+
+            <div class="panel">
+
+                <div class="titulo-panel">
+                    <h1>CORPORATIVO</h1>
+                    <p>Descuebre mas de Cinertec<p>
+                </div>
+
+                <div class="boton-panel">
+                    <a href="#contenido-quienesSomos">
+                    <div class="panel-icon">
+                        <img src="img/icon-usuario.png">
+                    </div>
+                    <div class="texto-icon-panel">
+                        <p>¿Quienes Somos?</p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="boton-panel">
+                    <a href="#contenido-contacto">
+                    <div class="panel-icon" style="margin-top: 8%;">
+                        <img src="img/icons-mensaje.png">
+                    </div>
+                    <div class="texto-icon-panel" >
+                        <p>Contacto</p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="boton-panel" >
+                    <a href="#contenido-legal">
+                    <div class="panel-icon" style="margin-top: 8%;">
+                        <img src="img/icons-acuerdo.png">
+                    </div>
+                    <div class="texto-icon-panel">
+                        <p>Cinertec Legal</p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="boton-panel">
+                    <a href="#contenido-nosotros">
+                    <div class="panel-icon"style="margin-top: 8%;">
+                        <img src="img/icons-manos.png">
+                    </div>
+                    <div class="texto-icon-panel">
+                        <p>Trabaja con nosotros</p>
+                    </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="contenedor">
+
+             
+
+                <div class="contenido-quienesSomos" id="contenido-quienesSomos">
+
+                    
+
+                    <div class="titulo-quienesSomos" >
+                        <h1 id="letra-titulo" style="color:rgb(198, 18, 18) ; font-size: 25px; padding: 2% 0 0 0 ;">¿QUIENES SOMOS?</h1>
+                        <br><h2 id="letra-titulo" style="font-size:30px ;">LIDERES DEL CINE DIGITAL</h2>
+                        <p id="letra" >Cinertec, Inc. es una cadena de cines con operaciones en Estados Unidos,
+                             Argentina, Brasil, Bolivia, Chile, Colombia, Costa Rica, Curaçao, Ecuador, Perú, 
+                             Paraguay, Panamá, Guatemala, Honduras, Nicaragua y El Salvador. Su sede corporativa
+                              está localizada en Plano, Texas, Estados Unidos.</p>
+                    </div>
+
+                    <div class="detalle-1">
+
+                        <div class="detalle-1-texto" >
+                            <h1>SOMOS N°1 EN ASISTENCIA EN AMÉRICA LATINA</h1>
+                            <ul>
+                                <li id="letra">Contamos con 194 complejos de cine y 1.286 pantallas.</li>
+                                <li id="letra"> Somos el circuito de cines más diverso con presencia en 15 países de América Latina.</li>
+                                <li id="letra">Tenemos presencia en 14 de las 20 áreas metropolitanas más importantes de Sudamérica.</li>
+                                <li id="letra">Abrimos nuestro primer cine en Perú el 1997.</li>
+                                <li id="letra">Actualmente contamos con 13 complejos de cine y 93 pantallas en Perú</li>
+                            </ul>
+                        </div>
+
+                        <div class="detalle-1-carrusel">
+                            <img id="contenido-carrusel" src="./img/img-carru.jpg" >
+                        </div>
+
+                    </div>
+
+                    <div class="detalle-2">
+                        <p id="letra">Con la apertura del primer multicine en el Perú en el Centro Comercial Jockey Plaza
+                             el mes de julio del año 1997, Cinertec revolucionó el mercado con la introducción 
+                             de nuevos sistemas e innovaciones, siendo la principal de ellas el concepto de
+                              “multicine” con una oferta de películas y servicios muy variados. Hoy contamos 
+                              con 6 complejos en centros comerciales y zonas estratégicas de Lima, así como 
+                              presencia en las principales ciudades del país: Trujillo, Arequipa, Piura, Huancayo, 
+                              Cajamarca y Huánuco. Nuestras salas son 100% digitales, con tecnología de última
+                               generación para una proyección en ultra alta definición para dar a nuestras visitas 
+                               una función de calidad.</p>
+
+                        <h1>LA CALIDAD ES LO PRIMERO Y ES POR ESO QUE CONTAMOS CON FORMATOS ÚNICOS 
+                            Y TECNOLOGÍA DE PRIMERA DENTRO DEL RUBRO DE PROYECCIÓN:</h1> 
+                        
+                            <ul>
+                                <li id="letra">Contamos con 194 complejos de cine y 1.286 pantallas.</li>
+                                <li id="letra"> Somos el circuito de cines más diverso con presencia en 15 países de América Latina.</li>
+                                <li id="letra">Tenemos presencia en 14 de las 20 áreas metropolitanas más importantes de Sudamérica.</li>
+                            </ul>
+                        
+                    </div>
+
+                    <div style="text-align:center; margin-top:1%; height: 2%; "><h1>NUESTROS CINES EN LIMA</h1></div>
+
+                    <div class="tarjetas-flotantes" > 
+
+                        <div class="tarjeta" id="tar" onmouseover="taron(this)" onmouseout="taroff(this)">
+                            <h1>CINERTEC LIMA</h1>
+                        </div>
+
+                        <div class="tarjeta" id="tar1" onmouseover="tar1on(this)" onmouseout="tar1off(this)">
+                            <h1>CINERTEC CALLAO</h1>
+                        </div>
+
+                    </div>
+
+                    
+
+                </div>
+                
+                 <div class="contenido-sub" id="contenido-contacto">
+
+                    <div class="contenido-contacto" >
+
+                        <div class="botones-contenido">
+
+                            <ul>
+                                <li><a id="li-boton" onmouseover="liboon(this)" onmouseout="libooff(this)" href="#" >Contacto general</a></li>
+
+                                <li><a  id="li-boton1" onmouseover="libo1on(this)" onmouseout="libo1off(this)" href="#" >Formulario de devolución compra en línea</a></li> 
+
+                                <li><a id="li-boton2" onmouseover="libo2on(this)" onmouseout="libo2off(this)" href="#" >Libro de reclamaciones</a></li>
+                            </ul>
+
+                        </div>
+
+                        <div class="sub-contenido-contacto">
+                        
+                            <div id="info-1-sub">
+
+                                <img src="img/icons-mensaje.png" alt="">
+                                <h1>CONTACTO</h1>
+                                <h2>NOS INTERESA SABER DE TI</h2>
+                                <hr>
+                                
+                            </div>
+
+                            <div id="info-2-sub">
+                                <a href="">HAZ CLICK AQUI PARA CONTACTARNOS</a>
+                            </div>
+                        
+                        </div>
+
+
+                    </div>
+
+                    <div class="imagen-relleno" id="relleno-contacto">
+
+                    </div>
+                    
+                    
+                </div>
+
+
+                <div class="contenido-legal" id="contenido-legal">
+
+                    <div id="info-legal-1">
+                        <img src="img/icons-acuerdo.png" alt="">
+                        <h1>CONTACTO</h1>
+                        <h2>NOS INTERESA SABER DE TI</h2>
+                        <hr>
+                    </div>
+
+                    <div id="botones-legal">
+
+                        <ul>
+                            <li><a id="li-boton-legal" onmouseover="legalon(this)" onmouseout="legaloff(this)" href="./img/TERMINOS_Y_CONDICIONES.pdf" >Términos y condiciones</a></li>
+
+                            <li><a  id="li-boton1-legal" onmouseover="legal1on(this)" onmouseout="legal1off(this)" href="./img/POLÍTICA DE PROTECCIÓN DE DATOS PERSONALES.pdf" >Política de protección de datos personales</a></li> 
+
+                        </ul>
+
+                    </div>
+
+                    <div class="imagen-relleno" id="relleno-legal">
+                        
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="contenido-nosotros" id="contenido-nosotros">
+
+                    <div id="logo-nosotros">
+
+                        <img src="img/Titulo.png" style="width:16% ; height:10%;">
+                        <ul>
+
+                            <li><a href="https://laborum.pe/">Ofertas laborales</a></li>
+                            <li><a href="https://laborum.pe/">Nuestras áreas</a></li>
+                            <li style="margin-left: 50%;"><a href="https://laborum.pe/">Login</a></li>
+
+                        </ul>
+
+                    </div>
+
+                    <div id="nosotros-cv"  >
+                            
+                        <h1>Forma parte de nuestras áreas</h1>
+                        <button ><a href="https://laborum.pe/" style="text-decoration:none; color: white;">Enviar CV</a></button>
+                        
+
+                    </div>
+
+                </div>
+
+            
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+    </main><!--de aqui para abajo no tocar, puesto que es el footer a menos que quieran modificar algo-->
+    <footer>
+        <div id="logo-footer"><a  href="Inicio-Cinertec.html"><img src="img/Titulo1.png"> </a> </div>
+        <div id="contenido"><strong>PROGRAMACION</strong>
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;" ><a href="">Cartelera</a></li>
+                <li><a href="">Proximamente</a></li>
+                <li><a href="">Preventa</a></li>
+            </ul>
+        </div>
+        <div id="contenido"><strong>SOBRE CINERTEC</strong>
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;"><a href="">Nosotros</a></li>
+                <li><a href="Sala_formatos.html">Formato de salas</a></li>
+                <li><a href="TerminosyConficiones.html">Terrminos y condiciones</a></li>
+                <li><a href="">Politica de Proteccion de Datos Personales</a></li>
+            </ul>
+        </div>
+        <div id="contenido"><strong>OTROS SERVICIOS</strong>
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;"><a href="./otros-servicios.html#privada">Salas privadas</a></li>
+                <li><a href="./otros-servicios.html#publicidad">Publicidad</a></li>
+            </ul>
+        </div>
+        <div id="contenido"><strong>CONTACTO</strong> 
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;"><a href="#contenido-contacto">Escribenos</a></li>
+                <li><a href="#contenido-nosotros">Trabaja con nosotros</a></li>
+                <li ><a href="#contenido-contacto">Libro de reclamaciones
+                    <img src="img/libro.png">
+                </a></li>
+            </ul>
+        </div>
+    </footer>
+    
+
+
+</body>
+</html>

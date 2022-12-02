@@ -1,0 +1,215 @@
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8"> <!--para poder usar sin problemas las tildes-->
+    <title>CINERTEC-PROMOCIONES</title> 
+    <link type="text/css" rel="stylesheet" href="css/Promociones.css"/> <!--Enlazar el html con la hoja de css respectiva-->
+    <script src="js/archivo-inicio.js"></script> <!--Enlazar archivo js con html-->
+    <link rel="shortcut icon" href="img/iconoWeb.ico" type="image/x-icon"> <!--para mostrar el icono de la tienda en la pestaña de la pagina-->
+    
+    
+</head>
+
+<body onload="efectoh1();">
+    
+    <header>
+       
+        <div class="header-superior">
+            <div class="botones">
+                <button class="Login">Login</button>
+                <a href="registro.html"><button class="Registrarse">Registrarse</button></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#">Conocenos</a></li>
+                    <li><a href="otros-servicios.html">otros servicios</a></li>
+                </ul>
+            </div>
+            <div class="Redes">
+
+                <div> <a href="https://www.facebook.com"><img src="img/facebook.png"></a></div> 
+                <div> <a href="https://www.instagram.com"><img src="img/instagram.png"></a></div> 
+                <div> <a href="https://www.twitter.com"><img  src="img/twitter.png"></a></div> 
+
+            </div>
+
+    </div>
+             
+        <div class="header-inferior">
+        
+            <div id="logo">
+                <a href="Inicio-Cinertec.html"><img src="img/Titulo.png"></a>
+            </div>
+            <div id="sub-menu">
+                <ul>
+                    <li><a href="Peliculas.html">Peliculas</a></li>
+                    <li><a href="Promociones.html">Promociones</a> </li>
+                    <li><a href="Productos.html">Locales</a></li>
+                    <li><a href="Confiteria.html">Confiteria</a></li>
+                </ul>
+            </div>
+            <div id="desplegable">
+
+                <ul onmouseover="desplegableon(this)" onmouseout="desplegableoff(this)">
+                    <li><a href=""><strong> CINERTEC MALL PLAZA BELLAVISTA</strong></a> 
+                        <ul id="ul">
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC MEGA PLAZA COMAS</a > </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC MALL PLAZA BELLAVISTA</a> </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC REAL PLAZA PRO</a> </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC PLAZA VEA VENTANILLA</a> </li>
+                            <li><a id="a" onmouseover="aon(this)" onmouseout="aoff(this)" href="">CINERTEC LA RAMBLA JAVIER PRADO</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+                        
+            </div>
+
+        </div> 
+    
+    </header>
+    <main ><!--bloque UNNICO-->
+        <!--TITULO-->
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+        <div style="width: 100%;height: 10%; background-color: blanchedalmond;">
+        <div id="titulo"><h2  id="promociones" style="font-family: Fjalla One;"><i>PROMOCIONES</i></h2> </div>
+        </div>
+        <div>
+            <!--1 TABLERO-->
+            <div data-content id="contenedor1" class="active">
+                <div id="Coleccionables" >
+                 <div id="cartel"> <img id="cartel1" src="img/poster2.png" /></div>
+                 <div id="banner" > <img id="bannerv" src="img/banner2.png" alt=""/></div>
+                  <div id="cuadritos">
+                       <div style="width: 48%; height:100%; background-color:aquamarine; margin: auto; text-align: center;align-items: center;">
+                         <img id="cuadro1" src="img/entradas3.png" alt="">
+                       </div>
+                       <div style="width: 48%; height:100%; background-color:rgb(182, 141, 27); text-align: center;align-items: center;">
+                       <img id="cuadro2" src="img/entradas4.png" alt="">
+                       </div>
+                  </div>               
+                </div>
+               </div>
+         </div>
+         <!--2 TABLERO-->
+         <div data-content id="contenedor2">
+             <div id="coleccionables2" >
+              <div id="cartel"> <img id="cartel1" src="img/coleccionables1.png" /></div>
+              <div id="banner" > <img id="bannerv" src="img/coleccionables2.png" alt=""/></div>
+               <div id="cuadritos">
+                    <div style="width: 48%; height:100%; background-color:rgb(105, 125, 118);margin: auto; text-align: center;align-items: center;">
+                      <img id="cuadro1" src="img/collecionables3.png" alt="">
+                    </div>
+                    <div style="width: 48%; height:100%; background-color:rgb(137, 137, 136); text-align: center;align-items: center;">
+                    <img id="cuadro2" src="img/coleccionables4.png" alt="">
+                    </div>
+               </div>               
+             </div>
+            </div>
+      </div>
+      <!--3 TABLERO-->
+      <div data-content id="contenedor3">
+         <div id="Coleccionables3" >
+          <div id="cartel"> <img id="cartel1" src="img/infantil1.jpg" /></div>
+          <div id="banner" > <img id="bannerv" src="img/infantil2.jpg" alt=""/></div>
+           <div id="cuadritos">
+                <div style="width: 48%; height:100%; background-color:aquamarine;margin: auto; text-align: center;align-items: center;">
+                  <img id="cuadro1" src="img/infantil3.jpg" alt="">
+                </div>
+                <div style="width: 48%; height:100%; background-color:rgb(182, 141, 27);text-align: center;align-items: center;">
+                <img id="cuadro2" src="img/infantil4.png" alt="">
+                </div>
+           </div>               
+         </div>
+        </div>
+  </div>
+  <!--4 TABLERO-->
+  <div data-content id="contenedor4">
+     <div id="Coleccionables" >
+      <div id="cartel"> <img id="cartel1" src="img/POSTER1.jpg" /></div>
+      <div id="banner" > <img id="bannerv" src="img/tomatodos1.png" alt=""/></div>
+       <div id="cuadritos">
+            <div style="width: 48%; height:100%; background-color:aquamarine;margin: auto; text-align: center;align-items: center;">
+              <img id="cuadro1" src="img/superheroe1.png" alt="">
+            </div>
+            <div style="width: 48%; height:100%; background-color:rgb(182, 141, 27);text-align: center;align-items: center;">
+            <img id="cuadro2" src="img/superheroe4.png" alt="">
+            </div>
+       </div>               
+     </div>
+    </div>
+ </div>
+            <!--MENU LATERAL-->
+            <div style="width: 30%;height:90%; background-color:blanchedalmond ;">
+         <div class="main">
+            <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat+Brush&family=Caveat:wght@700&family=Fjalla+One&display=swap" rel="stylesheet">
+                  
+            <aside class="sidebar">
+              <nav class="nav">
+                <ul>
+                  <li data-target="#contenedor1" ><a href="#">Entradas</a></li>
+                  <li data-target="#contenedor2" ><a href="#">Coleccionables</a></li>
+                  <li data-target="#contenedor3" ><a href="#">Infantil</a></li>
+                  <li data-target="#contenedor4" ><a href="#">superhero</a></li>
+                </ul>
+              </nav>
+            </aside>
+         </div>
+         
+        </div>
+        <!--CUADRO CENTRAL-->
+        
+        <div id="marcas" >
+            <p id="marcasasociadas">MARCAS ASOCIADAS</p>
+            <div style="width: 70%; height:60%; background-color:blanchedalmond;margin: auto; display: flex;">
+                <a href="https://www.viabcp.com/"><div id="auspicios" ><img id="marcasasociadas2" href="https://www.viabcp.com/" src="img/BCP1.png" onmouseover="overespacio(this)" onmouseout="outespacio(this)"></a></div>
+                <a href="https://bitel.com.pe/"><div id="auspicios"><img id="marcasasociadas2" src="img/bitel.png" onmouseover="overespacio(this)" onmouseout="outespacio(this)"></a></div>
+                <a href="https://www.cibertec.edu.pe/saca-tu-grandeza-aqui/?utm_source=Google&utm_medium=Search&utm_campaign=CT&gclid=Cj0KCQiA-JacBhC0ARIsAIxybyNk-Twym1jwbRoNabJKgSCD-aAjbdaGBkjw-y55__2s0XrrdY8-gvgaAiG4EALw_wcB"><div id="auspicios"><img id="marcasasociadas2" src="img/CIBERTEC1.png" onmouseover="overespacio(this)" onmouseout="outespacio(this)" ></a></div>
+                <a href="https://www.mcdonalds.com.pe/"><div id="auspicios"><img id="marcasasociadas2" src="img/macdonalds.png" onmouseover="overespacio(this)" onmouseout="outespacio(this)"></a></div>
+            
+            </div>
+        </div>
+        
+    </main><!--de aqui para abajo no tocar, puesto que es el footer a menos que quieran modificar algo-->
+    <footer>
+        <div id="logo-footer"><a  href="Inicio-Cinertec.html"><img src="img/Titulo1.png"> </a> </div>
+        <div id="contenido"><strong>PROGRAMACION</strong>
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;" ><a href="">Cartelera</a></li>
+                <li><a href="">Proximamente</a></li>
+                <li><a href="">Preventa</a></li>
+            </ul>
+        </div>
+        <div id="contenido"><strong>SOBRE CINERTEC</strong>
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;"><a href="">Nosotros</a></li>
+                <li><a href="Sala_formatos.html">Formato de salas</a></li>
+                <li><a href="TerminosyConficiones.html">Terrminos y condiciones</a></li>
+                <li><a href="">Politica de Proteccion de Datos Personales</a></li>
+            </ul>
+        </div>
+        <div id="contenido"><strong>OTROS SERVICIOS</strong>
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;"><a href="">Salas privadas</a></li>
+                <li><a href="">Publicidad</a></li>
+            </ul>
+        </div>
+        <div id="contenido"><strong>CONTACTO</strong> 
+            <ul>
+                <li style="border-top-style:double; border-color:red; padding-top: 10px;"><a href="">Escribenos</a></li>
+                <li><a href="">Trabaja con nosotros</a></li>
+                <li ><a href="">Libro de reclamaciones
+                    <img src="img/libro.png">
+                </a></li>
+            </ul>
+        </div>
+        <div>
+        </div>
+    </footer>
+    
+
+
+</body>
+</html>
+<script src="js/Promociones.js" defer></script>

@@ -1,0 +1,412 @@
+body{
+
+    margin:0 auto;
+    padding:0;
+    background-position: bottom;     
+}
+
+header{
+
+    width:90%;
+    height: 15%;
+    margin: 0 5% 0 5%;
+    background-color: rgb(7, 7, 7);
+    position: relative;
+    top:0;
+    left: 0;
+    right: 0;
+    opacity: 0.8;
+    
+}
+
+.header-superior{
+
+    width: 100%;
+    height: 30%;
+    background-color: rgb(26, 24, 24);
+    opacity: 1;
+}
+
+.menu{
+
+    float: left;
+    position: absolute;
+    right: 160;
+}
+
+.header-superior>.menu>ul>li>a{
+
+    text-decoration: none;
+    color: rgb(168, 168, 168);
+    font-size: 12;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.header-superior>.menu>ul{
+
+    display: block;
+    display: flex;
+    height: 5px;
+    margin-top: 5px;
+}
+
+.header-superior>.menu>ul>li{
+
+    list-style-type: none;
+    display: block;
+    float: right;
+    margin: 0 25px 0 0px;
+}
+
+.botones{
+
+    position: absolute;
+    top:0;
+    right:2px;  
+}
+
+
+.Login{
+
+    width: 80px;
+    height: 25px;
+    background-color: rgba(128, 128, 128, 0.703);
+    border: 0;
+    font-size: 12;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 4px;
+}
+
+.Registrarse{
+
+    width: 80px;
+    height: 25px;
+    background-color: rgba(96, 6, 6, 0.703);
+    border: 0;
+    font-size: 12;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 4px;
+}
+
+.header-superior>.Redes{
+
+    width:30%;
+    height:80%;
+    float: left;
+    display: flex;
+}
+
+.header-superior>.Redes>div{
+
+    height:100%;
+    width: 10%;
+    margin-top: 5px;
+}
+
+.header-superior>.Redes>div>a>img{
+
+    object-fit: contain;
+    width: 80%;
+    height: 80%;
+    padding-left: 12px;
+}
+
+.header-inferior{
+
+    width: 100%;
+    height:70%;
+    display: flex;
+}
+
+#logo{
+
+    width: 30%;
+    height: 100%;
+}
+#logo>a>img{
+
+    margin-top: 8px;
+    object-fit: contain;
+    width: 50%;
+    height: 80%;
+}
+
+#sub-menu{
+
+    width: 40%;
+    height: 100%;
+    margin-left: 20px;   
+}
+
+#sub-menu ul li{
+
+    list-style-type: none;
+    float: left;
+    margin: 8px 0 0 20px;
+    
+}
+
+#sub-menu ul li a{
+
+    text-decoration: none; 
+    font-size: 15;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 0, 0, 0.45);
+}
+
+#desplegable{
+
+    margin: 0px 0 0 70px; 
+}
+
+#desplegable ul li, #desplegable ul ul li{
+
+    list-style-type: none;
+}
+
+#desplegable ul ul{
+    
+    display: none;
+    padding-top:5px;
+    
+}
+
+#desplegable ul li a, #desplegable ul ul a{
+
+    text-decoration: none;
+    font-size: 11px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: block;
+    padding: 5px;
+}
+
+#desplegable ul , #desplegable ul ul{
+
+    margin: 15px 0 0 20px;
+    padding: 5px;
+    background-color:black;
+    border-radius: 4px;
+}
+
+
+main{
+    width: 90%;
+    
+    margin: 0 5% 0 5%;
+}
+
+section{
+
+    width: 100%;
+    height: 700px; /*referencial, una vez agregas contenido a section modificar este largo*/
+    background-color: antiquewhite; /*referencial, una vez agregas contenido a section o al main quitar este background*/
+
+}
+
+footer{
+
+    width: 90%;
+    height: 30%;
+    position:relative;
+    margin-top: 9%;
+    margin-left: 5%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top-style: solid ;
+    border-top-color: gray;
+    display:flex;
+    
+}
+#logo-footer{
+
+    width: 27%;
+    height: 100%;
+    margin-left: 1%;
+}
+
+#logo-footer a img{
+
+    object-fit: contain;
+    width: 80%;
+    height: 80%;
+    margin: 30 0px 0 30;
+
+}
+
+#contenido{
+
+    width:18%;
+    height: 100%;
+    margin:5 10 0 0;
+    border-color: gray;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 15;
+    color: gray;
+    
+
+}
+
+footer li {
+    list-style-type: none;
+    display: block;
+    margin-right:35px;
+    padding:0;
+    text-align: left;
+}
+footer li a{
+
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px;
+    font-size: 11;    
+}
+.option_menu{
+    width: 100%;
+    text-align: center;
+  
+}
+
+.option_menu a:hover {
+    border-bottom: 3px #b5121d solid;
+    color: #b5121d;
+    transition: 1.4s;
+    margin: 0 60px;  
+}
+/* Empece Pelicula */
+
+.option_menu a{
+    width: calc(50% - 2px);
+    background: none;
+    border: none;
+    border-bottom: 3px #a6a6a6 solid;
+    color: #a6a6a6;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.2;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    margin: 0;
+    border-radius: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    margin-top: 20%;
+    
+}
+
+#imgcab{
+	width: 100%;
+	height: 300px;
+	float: left;
+	margin:0;
+    background-image: url("/img_peli/sala1.jpg");
+}
+.h2cab {
+	text-align: left;
+    padding-left: 60px;
+    padding-top: 50px;
+	color: black;
+
+}
+.blok:hover{
+    transform: scale(1.2);
+    transition: .2s;
+        z-index: 1000;
+    margin: 7px 20px 80px 20px;
+    opacity: 0.65;
+
+}
+
+.imgblok{
+	width:96%;
+	height:250px;
+	margin:10px 2% 3px 2%;
+	float:left;
+}
+
+
+
+/*
+.pblok{
+	text-align:justify;
+	font-size:16px;
+	margin-left:2px;
+	visibility:hidden;
+	height:0px;
+}
+/*Slider*/
+.conetenslider{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+   
+}
+.contenedorslider{
+    width: 100%;
+    height: 100%;
+    display: flex;
+   
+}
+.contenido-slider{
+    width: 100%;
+    flex-shrink: 0;
+   
+}
+.contenido-slider>div{
+    padding-top: 6%;
+    color: white;
+    position: relative;
+    
+    bottom: 15%;
+    left: 40%;
+    font-size: 25px;
+}
+
+.contenido-slider button{
+    width: 180px;
+    font-size: 16px;
+    background: #b5121c;
+    color: white;
+    border-radius: 4px;
+    border: none;
+  
+
+}
+
+.grid{
+    padding-left: 120px;   
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    grid-template-rows: 40% ;
+}
+
+.div_ptitulo{
+    outline: none;
+    background: rgb(184, 180, 180);
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    justify-content: center;
+    text-decoration:none;
+    margin: 10px;
+    padding: 2px;
+    height: 280px;
+    cursor: pointer;
+    
+}
+.ptitulo{
+    width:100%;
+    color: rgb(152, 47, 47);
+    border: none;
+    font-size: 15px;
+    margin: 0;
+    border-radius: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+  
+}
